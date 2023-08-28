@@ -1,0 +1,40 @@
+.send-msg{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: #f8f9fa;
+}
+.send-msg .inpt{
+    width: 90%;
+}
+.send-msg .send-btn{
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.send-msg .send-btn:hover{
+    background-color: transparent !important;
+    opacity: 0.8;
+}
+@media (max-width:710px) {
+    .send-msg .inpt{
+        width: 85%;
+    }  
+}
+@media (max-width:545px) {
+    .send-msg .inpt{
+        width: 80%;
+    }  
+}
+@media (max-width:360px) {
+    .send-msg .inpt{
+        width: 75%;
+    }  
+}
+@media (max-width:280px) {
+    .send-msg .inpt{
+        width: 70%;
+    }  
+}

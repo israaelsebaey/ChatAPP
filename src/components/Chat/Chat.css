@@ -1,0 +1,31 @@
+.chat{
+    margin-top: 150px;
+}
+.chat .chat-content{
+    display: flex;
+    flex-direction: column;
+}
+.chat .all {
+    padding: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+.chat .sent{
+    float: left;
+    background-color: #5687d5;  
+    border-radius: 10px  50px 50px; 
+}
+.chat .recived{
+    float: right;
+    flex-direction: row-reverse;
+    background-color: #FAFAFA; 
+    border-radius: 50px  10px 50px 50px; 
+}
+.chat .chat-content img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.chat .chat-content .text{
+    margin-top: 12px;
+    font-weight: 600;
+}
